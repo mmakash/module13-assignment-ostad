@@ -1,10 +1,12 @@
-import React from 'react';
+import Home from './Pages/Home';
+import { BrowserRouter } from 'react-router-dom';
+
 
 const App = () => {
   return (
-    <div>
-      <h1>Hello App</h1>
-    </div>
+    <BrowserRouter>
+    <Home />
+    </BrowserRouter>
   );
 };
 
