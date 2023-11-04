@@ -7,22 +7,64 @@ const NavBar = () => {
     <nav>
       <ul>
         <li>
-          <NavLink to="/">Home</NavLink>
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? "active-item" : "pending-item"
+            }
+            to="/"
+          >
+            Home
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/about">About</NavLink>
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? "active-item" : "pending-item"
+            }
+            to="/about"
+          >
+            About
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/service">Service</NavLink>
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? "active-item" : "pending-item"
+            }
+            to="/service"
+          >
+            Service
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/contact">Contact</NavLink>
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? "active-item" : "pending-item"
+            }
+            to="/contact"
+          >
+            Contact
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/project">Project</NavLink>
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? "active-item" : "pending-item"
+            }
+            to="/project"
+          >
+            Project
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/blog">Blog</NavLink>
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? "active-item" : "pending-item"
+            }
+            to="/blog"
+          >
+            Blog
+          </NavLink>
         </li>
       </ul>
     </nav>
