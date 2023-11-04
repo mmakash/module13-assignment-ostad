@@ -11,7 +11,7 @@ const Counter = () => {
   return (
     <div>
         <h1>Uses of useRef</h1>
-      <p>Count: {count.current}</p>
+      <p style={{ textAlign: "center" }}>Count: {count.current}</p>
       <button onClick={increment}>Increment</button>
     </div>
   );

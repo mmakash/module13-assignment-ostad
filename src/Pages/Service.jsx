@@ -1,12 +1,14 @@
 import React from 'react';
 import NavBar from '../Component/NavBar/NavBar';
 import Footer from '../Component/Footer/Footer';
+import TextChange from '../Component/TextChange/TextChange';
 
 const Service = () => {
     return (
         <div>
             <NavBar />
-            <h1>This is Service Page</h1>
+            <h1>DOM Manipulation Using UseRef</h1>
+            <TextChange />
             <Footer />
         </div>
     );

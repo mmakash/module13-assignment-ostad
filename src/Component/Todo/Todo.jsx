@@ -17,6 +17,7 @@ const Todo = () => {
 
   return (
     <div className="todo-container">
+      <h1>Todo List</h1>
       <table>
         <tbody>
           {todos.length !== 0 ? (

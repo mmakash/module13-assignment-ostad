@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import SingleData from "../SingleData/SingleData";
+import "./Data.css";
 
 const Data = () => {
   const [data, setData] = useState([]);
@@ -24,7 +25,7 @@ const Data = () => {
           ))}
         </div>
       )}
-      <button style={{ margin: "0 auto" }} onClick={handleData}>Read Data</button>
+      <button onClick={handleData}>Read Data</button>
     </div>
   );
 };
