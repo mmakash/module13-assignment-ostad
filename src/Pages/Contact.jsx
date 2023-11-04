@@ -1,16 +1,16 @@
 import React from 'react';
 import NavBar from '../Component/NavBar/NavBar';
-import Data from '../Component/Data/Data';
+import Counter from '../Component/Counter/Counter';
 import Footer from '../Component/Footer/Footer';
 
-const Blog = () => {
+const Contact = () => {
     return (
         <div>
             <NavBar />
-            <Data/>
+            <Counter />
             <Footer />
         </div>
     );
 };
 
-export default Blog;
+export default Contact;

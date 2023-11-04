@@ -1,16 +1,15 @@
 import React from 'react';
 import NavBar from '../Component/NavBar/NavBar';
-import Data from '../Component/Data/Data';
 import Footer from '../Component/Footer/Footer';
 
-const Blog = () => {
+const Service = () => {
     return (
         <div>
             <NavBar />
-            <Data/>
+            <h1>This is Service Page</h1>
             <Footer />
         </div>
     );
 };
 
-export default Blog;
+export default Service;

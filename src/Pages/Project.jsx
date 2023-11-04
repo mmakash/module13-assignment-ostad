@@ -1,16 +1,16 @@
 import React from 'react';
 import NavBar from '../Component/NavBar/NavBar';
-import Data from '../Component/Data/Data';
+import Article from './../Component/Article/Article';
 import Footer from '../Component/Footer/Footer';
 
-const Blog = () => {
+const Project = () => {
     return (
         <div>
             <NavBar />
-            <Data/>
+            <Article />
             <Footer />
         </div>
     );
 };
 
-export default Blog;
+export default Project;
